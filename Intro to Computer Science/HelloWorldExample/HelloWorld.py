@@ -3,8 +3,9 @@
 print("Hello World!")
 
 """
-anything between the opening and closing quotes will be ignored
+anything between the opening and closing quotes will be ignored/commented out
 """
+
 print("Mr. Berta's Class is Awesome!")
 
 print (5 + 4)
@@ -45,7 +46,8 @@ number2 = float (7) #results in 7.0
 print (number1)
 print (number2)
 '''
-#syntax errors prevent code from even running (represented by a red swiggly line)
+
+#syntax errors prevent code from even running
 #runtime errors allows code to run until it encounters an error
 
 #Getting input from user
@@ -65,6 +67,7 @@ elif 75 <= pooltemp <= 85:
 else:
     print("heck with that, it's too cold")
 
+#Error Handling   
 a = float(input("Please enter a number"))
 b = float(input("Please enter a number to divide by"))
 try:
